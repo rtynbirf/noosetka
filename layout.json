@@ -1,0 +1,17 @@
+{
+  "schema": "reve/layout@1",
+  "title": "НООСЕТКА · ПУЛЬТ МИРОВ",
+  "motto": "вымеряется, не декларируется · GHOST → WIRE → LIVE → READY · REVE: layout → render",
+  "canvas": {"w": 900, "bg": "#0b0f14", "border": "#1e293b", "radius": 16, "pad": 28},
+  "font": "DejaVu Sans, Verdana, Geneva, sans-serif",
+  "palette": {
+    "bg": "#0b0f14", "border": "#1e293b", "text": "#e5e7eb",
+    "dim": "#94a3b8", "faint": "#64748b",
+    "READY": "#22c55e", "LIVE": "#38bdf8", "WIRE": "#f59e0b",
+    "GHOST": "#64748b", "DEGRADED": "#ef4444", "SEALED": "#a855f7"
+  },
+  "grid": {"cell": 24, "gap": 7, "cols": 14},
+  "braille": {"unit": 6.4, "dot": 2.3, "cell_unit": 4.6, "cell_dot": 1.7},
+  "panel": {"cap": 17, "line_h": 16},
+  "order": "registry"
+}

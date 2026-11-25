@@ -1,0 +1,29 @@
+name: noosetka
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Промер миров и рендер пульта
+        run: |
+          python3 noosetka.py all
+          python3 noosetka.py verify
+          python3 -m unittest test_noosetka -v
+
+      - name: Бот-коммит снимка (append-only, без force)
+        run: |
+          git config user.name "noosetka[bot]"
+          git config user.email "noosetka[bot]@users.noreply.github.com"
+          git add noosetka.svg noo/snapshot.json
+          git diff --cached --quiet || git commit -m "НОО: промер пульта — авт · $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push

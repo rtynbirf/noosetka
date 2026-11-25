@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>НООСЕТКА · ПУЛЬТ МИРОВ — rtynbirf</title>
+<style>
+:root{--bg:#0b0f14;--card:#111827;--border:#1f2937;--text:#e5e7eb;--dim:#94a3b8;--faint:#64748b;
+--READY:#22c55e;--LIVE:#38bdf8;--WIRE:#f59e0b;--GHOST:#64748b;--DEGRADED:#ef4444;--SEALED:#a855f7}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);
+font:14px/1.5 "DejaVu Sans",Verdana,sans-serif}
+.wrap{max-width:1120px;margin:0 auto;padding:30px 20px 48px}
+h1{font-size:22px;margin:0 0 4px}
+.motto{color:var(--dim);font-size:13px;margin:0 0 20px}
+.home{display:flex;align-items:center;gap:18px;flex-wrap:wrap;background:var(--card);
+border:1px solid var(--border);border-radius:14px;padding:16px 20px;margin-bottom:14px}
+.home .brl{font-size:30px;letter-spacing:6px}
+.home .word{font-size:26px;font-weight:700}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{border:1px solid var(--border);border-radius:999px;padding:4px 12px;font-size:12px;background:#0d1420}
+.bar{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:0 0 18px;color:var(--dim);font-size:12px}
+button{background:#111827;border:1px solid #2b3648;color:var(--text);border-radius:10px;
+padding:8px 16px;cursor:pointer;font-weight:600}
+button:hover{border-color:#3b82f6} button:disabled{opacity:.5;cursor:wait}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+.card.st-GHOST{border-style:dashed}
+.card.st-DEGRADED{border-color:#7f1d1d}
+.top{display:flex;align-items:center;gap:8px;margin-bottom:6px}
+.dot{width:10px;height:10px;border-radius:3px;flex:none}
+.name{font-weight:700;text-decoration:none;color:var(--text);font-size:14px}
+.name:hover{color:#60a5fa}
+.brlc{color:var(--faint);font-size:15px}
+.st{margin-left:auto;font-size:11px;font-weight:700}
+.role{color:var(--dim);font-size:12px;max-height:34px;overflow:hidden}
+.reason{color:var(--dim);font-size:11px;margin-top:4px}
+.meta{color:var(--faint);font-size:11px;margin-top:6px}
+footer{margin-top:26px;color:var(--faint);font-size:12px}
+a{color:#60a5fa;text-decoration:none}a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>◇ НООСЕТКА · ПУЛЬТ МИРОВ</h1>
+<p class="motto">состояние каждого мира <b>вымеряется</b>, не декларируется ·
+GHOST → WIRE → LIVE → READY · отказ → DEGRADED с причиной · архив → SEALED ·
+дом <a href="https://github.com/rtynbirf">rtynbirf</a></p>
+<div class="home">
+  <span class="brl" id="brl">⠇⠊⠧⠑</span>
+  <span class="word" id="home" style="color:#38bdf8">LIVE</span>
+  <span class="chips" id="chips"><span class="chip" style="color:#22c55e">READY 1</span> <span class="chip" style="color:#38bdf8">LIVE 79</span> <span class="chip" style="color:#a855f7">SEALED 1</span></span>
+</div>
+<div class="bar">
+  <button id="go">ПРОМЕРИТЬ СЕЙЧАС</button>
+  <label><input type="checkbox" id="auto" checked> авто каждые 60 с</label>
+  <span id="stamp">снимок от 2026-11-25T13:52:50Z UTC · сейчас меряю заново…</span>
+</div>
+<div class="grid" id="grid"></div>
+<footer>REVE: layout → render · станок:
+<a href="https://github.com/rtynbirf/noosetka">noosetka</a> ·
+реестр миров: singulyar@rumu <code>noo/миры.json</code> ·
+промер читает committed <code>noo/badge.json</code> каждого мира — бейдж не может соврать ·
+брайль дома — канон latin-g1 · факт = байты</footer>
+</div>
+<script>
+"use strict";
+const WORLDS = [{"repo":".github","branch":"main","role":".github — дефолтные community health files","braille":"⠗","state":"LIVE","reason":"LIVE · ядро в репо","ms":289,"badge_sha12":"4ed010d21716"},{"repo":"agryp","branch":"main","role":"agryp — неспящий супервизор агентов уровня PID 1","braille":"⠑","state":"LIVE","reason":"LIVE · ядро в репо","ms":440,"badge_sha12":"78dd7e7ae28c"},{"repo":"assembly-protocol","branch":"main","role":"Верификация через исполнение: протокол сборки v7. Двое независимых исполнителей, шесть вер","braille":"⠁","state":"LIVE","reason":"LIVE · ядро в репо","ms":324,"badge_sha12":"8aaf12133d1b"},{"repo":"cell-rs","branch":"main","role":"Первая Rust-клетка роя: ядро контура сверки — Tolerance/reconcile/Phase, sha256, байт-цепь","braille":"⠙","state":"LIVE","reason":"LIVE · ядро в репо","ms":560,"badge_sha12":"20626f1c1525"},{"repo":"cell-swarm","branch":"main","role":"РОЙ (Cell Swarm) — сингулярная эмерджентная архитектура: клетка, окно, указатели, храповик","braille":"⠽","state":"LIVE","reason":"LIVE · ядро в репо","ms":349,"badge_sha12":"0848fca7b469"},{"repo":"cell65-host","branch":"main","role":"cell65-host — Антицензор (Chrome MV3): PAC/DNR/WebRTC-защита, hosts-блокировка, обход блок","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":381,"badge_sha12":"f82464dbeb02"},{"repo":"code","branch":"main","role":"Код дома: скрипты и снипеты — место по канону §4","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":379,"badge_sha12":"01f1b8a204bd"},{"repo":"combain-v2","branch":"main","role":"COMBAIN v2 — self-hosted messenger","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":364,"badge_sha12":"7ed98b05e982"},{"repo":"commons","branch":"main","role":"COMMONS — один организм из лучших открытых проектов: геном-спеки, синапсы MCP, кровь событ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":512,"badge_sha12":"c637722c731a"},{"repo":"dogovor","branch":"main","role":"Договор агента: правила, которыми роя связывает себя сам. Правило = карточка 6 строк + авт","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":343,"badge_sha12":"59522a4a6d64"},{"repo":"domovenok","branch":"main","role":"🏠 Командный центр дома: задачи, комнаты, расходы и индекс порядка. Next.js 16 · TypeScript","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":343,"badge_sha12":"3a844d6f842b"},{"repo":"domovoy","branch":"main","role":"КНИГА ДОМОВОГО","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":389,"badge_sha12":"cc450d368bca"},{"repo":"domovoy-ritual","branch":"main","role":"Ритуал дома как конечный автомат: поработал → сделал → убрал за собой. S0-покой гарантиров","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":479,"badge_sha12":"672308602319"},{"repo":"domovoy-tweaker","branch":"main","role":"ДОМОВОЙ / MEGA=TWEAKER — Windows tweaker as a state, not an event: change ledger, drift se","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":433,"badge_sha12":"fa6a689c80db"},{"repo":"door-zero","branch":"main","role":"Door Zero: дверь без контента. PID 0 системы: удаление ломает boot. GET -> 204, POST/PUT -","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":471,"badge_sha12":"c6f0bfe7fd77"},{"repo":"edinyy-svod","branch":"main","role":"ЕДИНЫЙ СВОД — Конституция Хозяина 4.2: основной закон стенда «ЕДИНЫЙ ХОЗЯИН», 98 статей, X","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":478,"badge_sha12":"ece85a09a6d0"},{"repo":"ekonomika","branch":"main","role":"КНИГА ЭКОНОМИКИ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":387,"badge_sha12":"8026f5b3f590"},{"repo":"ekspozicii","branch":"main","role":"КНИГА ЭКСПОЗИЦИЙ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":413,"badge_sha12":"43f816085df4"},{"repo":"fond-host","branch":"main","role":"CORS-хост минус-фонда дома (Н-10 · ADR-0007): Pages отдаёт ACAO:* для лестницы WebAudio пл","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":448,"badge_sha12":"6124c919220e"},{"repo":"free-man","branch":"main","role":"FREE MAN 0.2.2 — browser autonomy for Chrome MV3. 108 tracker/ads/CNAME domains blocked 10","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":431,"badge_sha12":"d491fe539895"},{"repo":"github-doctrine","branch":"main","role":"КНИГА ДОКТРИНЫ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":390,"badge_sha12":"a4604b2b904a"},{"repo":"github-runbook","branch":"main","role":"Ранбук: настройка GitHub-репозитория человеком для человека — все флаги Settings, ветки и ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":464,"badge_sha12":"adb7d91155a3"},{"repo":"global-practice-atlas","branch":"main","role":"Глобальный атлас практик 2026 (v1.6): 1145 живых позиций из 1154 строк, 9 поглощений с сох","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":379,"badge_sha12":"572fa991bf06"},{"repo":"global-video-platforms-registry","branch":"main","role":"Верифицированный реестр 1071 видеоплатформ (1032 активных) — окт 2026. CSV/JSON/XLSX/PDF +","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":373,"badge_sha12":"1f4517760897"},{"repo":"H-PE11-PHOENIX","branch":"main","role":"PHOENIX-11: ворклог операций TH-* (журнал неповторимых результатов), сборки WinPE, сессии.","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":492,"badge_sha12":"03bff75cc3ef"},{"repo":"hologram","branch":"main","role":"осколок знает целое: Merkle-осколки + Рид-Соломон (Целое из любых k из n), 64 репо вселенн","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":486,"badge_sha12":"e68b5e3b3af4"},{"repo":"index","branch":"main","role":"SSOT-хаб: реестр проектов, проверенные SHA, конституция веса","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":460,"badge_sha12":"47e387bee746"},{"repo":"inv-automat","branch":"main","role":"КОНЕЧНЫЙ АВТОМАТ инвентаризации: живой GitHub API → claims-сверка → append-only ledger → P","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":376,"badge_sha12":"8a3d6aaae87e"},{"repo":"invariant-manifest","branch":"main","role":"МАНИФЕСТ ИНВАРИАНТА · FORK 3 · v0.2.3 · CONDITIONAL PASS · seed 7170 · stdlib-only · порож","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":400,"badge_sha12":"8fae814ce18c"},{"repo":"karaoke-dream","branch":"main","role":"Браузерное караоке мечты: неон, гид-вокал, оценка голоса в реальном времени и Зелёный кори","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":408,"badge_sha12":"d3e856012db3"},{"repo":"karta","branch":"main","role":"КАРТА ВСЕЛЕННОЙ rtynbirf: генерируется из живых данных API, ни одного выдуманного числа. С","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":490,"badge_sha12":"30681b8e9d61"},{"repo":"kb","branch":"main","role":"Знания дома: канон-тексты, гайды, досье — место по канону §4","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":459,"badge_sha12":"1f95d41c4a78"},{"repo":"khozyain","branch":"main","role":"ХОЗЯИН ДОМА — аккаунт-уровневый автомат состояния: зелёные main, живые триггеры, ноль откр","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":291,"badge_sha12":"92648cf18ee0"},{"repo":"language-through-the-ages","branch":"main","role":"Язык сквозь эпохи — автономная HTML-экспозиция: семь способов мыслить язык (7 эпох × 7 гар","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":369,"badge_sha12":"0b85f45ddb05"},{"repo":"lean-canon","branch":"main","role":"КНИГА LEAN-КАНОНА","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":495,"badge_sha12":"f7f5ef6a07dd"},{"repo":"lex-naturae","branch":"main","role":"Lex Naturae — claim/evidence ledger. Separates observations from hypotheses, philosophical","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":317,"badge_sha12":"bb44b735550c"},{"repo":"lfs-core","branch":"main","role":"Испытательный стенд автономного агента: цель/обязательство/пересмотр измеряются, а не декл","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":376,"badge_sha12":"376059b4b31f"},{"repo":"linguistic-code","branch":"main","role":"Самодостаточный философский артефакт о языке, теле и опыте. δ requires body.","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":404,"badge_sha12":"1d654ff2f44e"},{"repo":"markitdown","branch":"main","role":"MarkItDown","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":398,"badge_sha12":"6844eb8d1f68"},{"repo":"meta-layer-kit","branch":"main","role":"meta-layer-kit: единый ZIP набора мета-управления","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":321,"badge_sha12":"5e58aa5b9eff"},{"repo":"neutral-browser","branch":"main","role":"Neutral Browser — НЕЙТРАЛЬНЫЙ БРАУЗЕР ПОЛЬЗОВАТЕЛЯ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":495,"badge_sha12":"3bd6902deb34"},{"repo":"nous","branch":"main","role":"НОУС — эмерджентное сингулярное репо: конституция для человека и агентов, ТЗ форжа ISO, до","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":392,"badge_sha12":"6ffdd4ba7e9f"},{"repo":"os-forge","branch":"main","role":"OS-FORGE v0.1.1 — самодостаточный автономный батник: карта среды (железо+ОС по фактам) → р","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":401,"badge_sha12":"88bead864944"},{"repo":"polimat-hub","branch":"main","role":"POLIMAT-HUB: место сверок мультиагента-архитектора. Архитектура, журнал операций, пломбы, ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":383,"badge_sha12":"3b569c80b596"},{"repo":"polimat-task174","branch":"main","role":"ПОЛИМАТ · TASK174 — протокол проверки канона по строкам: пломбы sha256, ловушки, Б25.8 при","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":398,"badge_sha12":"f23b7d51abde"},{"repo":"polymat-hive","branch":"main","role":"🐝 Живой репозиторий-организм: экипаж автономных AI-агентов в GitHub Actions — Copilot, лок","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":371,"badge_sha12":"91f9302359e2"},{"repo":"polymath-atlas","branch":"main","role":"Operational System Atlas - Lean 4 Gestalt audit: 7 modules, zero sorry, verbatim imperial ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":441,"badge_sha12":"2ccdb2c37964"},{"repo":"POLYMATH-ATLAS-GESTALT-CANON","branch":"main","role":"Полимат-Атлас-Гештальт-Канон: Lean 4 формальный канон (301 модуль, 55388 строк, 2916 теоре","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":356,"badge_sha12":"3a7c9d78973f"},{"repo":"polymath-atlas-v107","branch":"main","role":"POLYMATH-ATLAS v107.1-FINAL — honest evidence-audit framework in Lean 4. VERIFIED ENGINEER","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":388,"badge_sha12":"c130f11ff360"},{"repo":"polymath-core","branch":"main","role":"КНИГА ПОЛИМАТ-ЯДРА","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":369,"badge_sha12":"9716f4f63042"},{"repo":"polymath-gen","branch":"main","role":"ПОЛИМАТ-ГЕН: автономный медиа-агент — задание человека -> промпт -> изображение/видео -> с","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":358,"badge_sha12":"16fd1714629a"},{"repo":"polymath-multiagent","branch":"main","role":"🧠 Полимат = Мультиагент — параллельная оркестрация ИИ-агентов, где одно другое не исключае","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":456,"badge_sha12":"1a2844640cda"},{"repo":"polymath-os","branch":"main","role":"Personal sovereign media-OS. 5-layer LFS-style self-bootstrapping repo. SINGULYAR Emergent","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":334,"badge_sha12":"3e0476aa47a2"},{"repo":"polymath-stckg-core","branch":"main","role":"ST-CKG → Lean 4 bridge contract: 11 machine-verified theorems, 0 sorry, kernel-audited axi","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":377,"badge_sha12":"adf34589073d"},{"repo":"polymath-tools-atlas","branch":"main","role":"ПОЛИМАТ · TOOLS-ATLAS — каталог 665 AI-инструментов по контракту ГОЛОГРАММА v1 (6 слоёв, 3","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":397,"badge_sha12":"c6c61da7b14e"},{"repo":"red-thread-debt-audit","branch":"main","role":"КРАСНАЯ НИТЬ — аудит динамики суверенного долга: долговая яма = рента. Канон v8.0, матрица","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":527,"badge_sha12":"ee44422b1be6"},{"repo":"release-vault","branch":"main","role":"release-vault — Шифрованное хранилище релизных ассетов","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":448,"badge_sha12":"da177d26af06"},{"repo":"relomat","branch":"main","role":"РЕЛОМАТ — канон типизированных отношений как конечный детерминированный автомат: SAME, IS-","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":420,"badge_sha12":"d599c9b19444"},{"repo":"rent-mechanism-q43","branch":"main","role":"Рентный механизм: ядро Q43 v2, шесть законов L1-L6, инвариант I_K. Машинная программа R11-","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":482,"badge_sha12":"8b7f7b8fe610"},{"repo":"repo-doctrine","branch":"main","role":"Доктрина настройки GitHub-репозиториев: человеком для человека. Чек-листы флагов, защита в","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":412,"badge_sha12":"8c9d2e4a21e8"},{"repo":"repo-seed","branch":"main","role":"Зерно дома: шаблон новорождённого — мембрана+CI+закон рождения (принцип №7 канона 27). Use","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":413,"badge_sha12":"ada45dfd879a"},{"repo":"revo","branch":"main","role":"REVO — автономный прототип метода Reve: layout → render","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":440,"badge_sha12":"b000892ac216"},{"repo":"rtynbirf","branch":"main","role":"ЧЕЛОВЕК=АККАУНТ=PID1 · ПОЛИМАТ=МУЛЬТИАГЕНТ · живая кузня: рой агентов, офлайн-вселенная, н","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":511,"badge_sha12":"dfd4249d28e2"},{"repo":"rtynbirf.github.io","branch":"main","role":"ЛАКОРНИЯ · MEGA-PLAYER SINGULYAR","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":387,"badge_sha12":"71b386a4031c"},{"repo":"rumu","branch":"main","role":"⚡ СИНГУЛЯР РУМУ — Sovereign BL/GL Streaming. P2P+autopilot, NO corporate. 249 тайтлов. Дер","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":369,"badge_sha12":"f75385a975e3"},{"repo":"runtime-protocol","branch":"main","role":"Клетка роя cell-swarm: исполнимая модель динамики узла (уравнение ρ̇, GENESIS_EXEC, VOLATI","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":371,"badge_sha12":"7452b836594d"},{"repo":"ruvson","branch":"main","role":"КНИГА RUVSON","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":408,"badge_sha12":"3918df5d1f0e"},{"repo":"ruvson-lyrics","branch":"main","role":"RUVSON — тексты 65 треков: черновики, пайплайн, финальный ZIP","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":551,"badge_sha12":"89c26fa7aa68"},{"repo":"ruvson-rse2","branch":"main","role":"RUVSON SINGULARITY ENGINE v2 (RSE-2): станок одной песни Шаг 0-6 на мировых трендах 2023-2","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":391,"badge_sha12":"fb25e38d055e"},{"repo":"singulyar","branch":"rumu","role":"СИНГУЛЯР — офлайн-вселенная караоке RUVSON: 68 песен · 197 языков (цель 200) · ОРКЕСТРАТОР","braille":"⠀","state":"READY","reason":"READY · стражи 16/16","ms":294,"badge_sha12":"4febd035cb2c"},{"repo":"singulyar-a0-audit","branch":"main","role":"SINGULYAR × A0 — independent audit (PACKAGE VALID + BRIDGE VALID) and R4 port design","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":711,"badge_sha12":"20f90f016fe6"},{"repo":"singulyar-llm","branch":"main","role":"Локальная модель СИНГУЛЯРА: Qwen2.5-0.5B-Instruct GGUF частями + инструкционный слой (ОБУЧ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":367,"badge_sha12":"fc0a8c0f5dc3"},{"repo":"task-graph-propagator","branch":"main","role":"Task Graph Engine: один пропагатор — все функции структуры графа задач (полукольца, Кана, ","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":389,"badge_sha12":"cdfdb526a2c0"},{"repo":"uace","branch":"main","role":"КНИГА UACE","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":390,"badge_sha12":"2b444cc4d2c5"},{"repo":"uace-pml","branch":"main","role":"UACE x PML — Universal AI Chat Exporter (Evidence First, PML-PANEL 1.0 / PML-STRUCT canon)","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":479,"badge_sha12":"60a9936ba14c"},{"repo":"uace-polymat","branch":"main","role":"UACE x PML — POLYMAT UNIFIED userscripts + Cookie Vault MV3 extension. 0 network. Machine-","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":448,"badge_sha12":"31c6ab4b9f01"},{"repo":"universal-agent","branch":"main","role":"UniversalAgent (TsUA) - single-brain holistic agent: one LLM core, closed perception-actio","braille":"⠀","state":"SEALED","reason":"архив (заморожен владельцем, запись закрыта GitHub)","ms":null,"badge_sha12":null},{"repo":"voice-atlas-llm","branch":"main","role":"Атлас-LLM: модель-эксперт по клонированию голоса (дизентанглмент, TTS/VC/SVC/SVS) — LoRA-о","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":499,"badge_sha12":"a7c1abb8515c"},{"repo":"web-evolution-1991-2026","branch":"main","role":"Эволюция Веба 1991→2026 — автономная HTML-экспозиция: 5 эпох, таймлайн, WCAG+APCA, один фа","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":381,"badge_sha12":"ef898f478b72"},{"repo":"windows-chronicle","branch":"main","role":"Полная хроника Microsoft Windows 1985-2026: все версии, боли пользователей, продвижение, р","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":458,"badge_sha12":"dde3d7e75e36"},{"repo":"yazyk-skvoz-epohi","branch":"main","role":"Язык сквозь эпохи · Дом-Автомат v21 — семиэпохальное эссе, построенное как детерминированн","braille":"⠀","state":"LIVE","reason":"LIVE · ядро в репо","ms":443,"badge_sha12":"c01c373f649a"}];
+const RAW = "https://raw.githubusercontent.com/rtynbirf";
+const LABEL = {READY:"готов",LIVE:"жив",WIRE:"на проводе",
+  GHOST:"призрак — манифеста нет",DEGRADED:"отказ",SEALED:"опечатан (архив)"};
+const RANK = {READY:0,SEALED:1,LIVE:2,WIRE:3,GHOST:4,DEGRADED:5};
+const BR = {a:1,b:3,c:9,d:25,e:17,f:11,g:27,h:19,i:10,j:26,k:5,l:7,m:13,n:29,o:21,
+  p:15,q:31,r:23,s:14,t:30,u:37,v:39,w:58,x:45,y:61,z:53};
+function bw(word){let s="";for(const ch of word.toLowerCase())
+  if(ch in BR)s+=String.fromCharCode(0x2800|BR[ch]);return s;}
+const grid = document.getElementById("grid");
+const cards = [];
+WORLDS.forEach((w,i)=>{
+  const d = document.createElement("div");
+  d.className = "card st-" + w.state;
+  d.innerHTML =
+    '<div class="top"><span class="dot" style="background:var(--'+w.state+')"></span>'+
+    '<span class="brlc">'+(w.braille||"")+'</span>'+
+    '<a class="name" href="https://github.com/rtynbirf/'+encodeURIComponent(w.repo)+'">'+w.repo+'</a>'+
+    '<span class="st" style="color:var(--'+w.state+')">'+w.state+'</span></div>'+
+    '<div class="role">'+(w.role||"")+'</div>'+
+    '<div class="reason">'+(w.reason||"")+'</div>'+
+    '<div class="meta"></div>';
+  grid.appendChild(d);
+  cards.push({w, d, meta:d.querySelector(".meta"),
+              reason:d.querySelector(".reason"),
+              st:d.querySelector(".st"),
+              dot:d.querySelector(".dot")});
+});
+function agg(states){
+  const cand = states.filter(s=>s!=="SEALED");
+  if(!cand.length) return states.length?"SEALED":"GHOST";
+  return cand.reduce((a,b)=>RANK[b]>RANK[a]?b:a);
+}
+function paintChips(cnt){
+  document.getElementById("chips").innerHTML = Object.keys(cnt).map(s=>
+    '<span class="chip" style="color:var(--'+s+')">'+s+' '+cnt[s]+'</span>').join(" ");
+}
+function paintHome(home){
+  document.getElementById("brl").textContent = bw(home);
+  const h = document.getElementById("home");
+  h.textContent = home;
+  h.style.color = "var(--"+home+")";
+}
+async function probeAll(){
+  const btn = document.getElementById("go");
+  btn.disabled = true; btn.textContent = "МЕРЯЮ…";
+  const res = cards.map(()=>null);
+  await Promise.all(cards.map(async (c,i)=>{
+    if(c.w.state==="SEALED"){res[i]=c.w;return;}
+    const url = RAW+"/"+encodeURIComponent(c.w.repo)+"/"+encodeURIComponent(c.w.branch)+"/noo/badge.json";
+    const t0 = performance.now();
+    try{
+      const r = await fetch(url,{cache:"no-store"});
+      const ms = Math.round(performance.now()-t0);
+      if(r.status===200){
+        const b = await r.json();
+        const msg = String(b.message||"").trim();
+        const head = msg.split("·")[0].trim().split(" ")[0].toUpperCase();
+        const state = ["READY","LIVE","WIRE","GHOST","DEGRADED","SEALED"].includes(head)?head:"DEGRADED";
+        res[i] = Object.assign({},c.w,{state, reason:msg||"(без сообщения)", ms});
+      } else if(r.status===404){
+        res[i] = Object.assign({},c.w,{state:"GHOST",
+          reason:"noo/badge.json: 404 — манифеста нет", ms});
+      } else {
+        res[i] = Object.assign({},c.w,{state:"DEGRADED", reason:"HTTP "+r.status, ms});
+      }
+    }catch(e){
+      const ms = Math.round(performance.now()-t0);
+      res[i] = Object.assign({},c.w,{state:"DEGRADED", reason:String(e.message||e), ms});
+    }
+  }));
+  res.forEach((r,i)=>{
+    const c = cards[i];
+    c.w = Object.assign({}, c.w, r);
+    const st = c.w.state;
+    c.d.className = "card st-"+st;
+    c.dot.style.background = "var(--"+st+")";
+    c.st.textContent = st; c.st.style.color = "var(--"+st+")";
+    c.reason.textContent = c.w.reason||"";
+    c.meta.textContent = (c.w.branch||"main")+
+      (c.w.ms!=null?(" · "+c.w.ms+"ms"):"")+
+      (c.w.badge_sha12?(" · sha12 "+c.w.badge_sha12):"");
+  });
+  const cnt = {};
+  res.forEach(r=>{cnt[r.state]=(cnt[r.state]||0)+1;});
+  paintHome(agg(res.map(r=>r.state)));
+  paintChips(cnt);
+  document.getElementById("stamp").textContent =
+    "живой промер: " + new Date().toISOString().replace("T"," ").slice(0,19) +
+    " UTC · " + res.length + " миров вымерено";
+  btn.disabled = false; btn.textContent = "ПРОМЕРИТЬ СЕЙЧАС";
+}
+document.getElementById("go").addEventListener("click", probeAll);
+setInterval(()=>{ if(document.getElementById("auto").checked) probeAll(); }, 60000);
+probeAll();
+</script>
+</body>
+</html>
