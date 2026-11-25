@@ -62,9 +62,16 @@ DOT_POS = {0: (0, 0), 1: (0, 1), 2: (0, 2), 3: (1, 0), 4: (1, 1), 5: (1, 2)}
 UA = "noosetka/1.0 (+https://github.com/rtynbirf)"
 
 
+def ascii_url(url):
+    """URL только из ASCII: кириллицу пути в %XX (UTF-8), готовые %XX не трогаем.
+    Локаль раннера (POSIX/ascii) не должна ломать промер — кросс-машинный
+    детерминизм: один и тот же промер на любой машине."""
+    return urllib.parse.quote(url, safe="/:?&=#%")
+
+
 def http_get(url, timeout=12):
     """(status|None, bytes, ms, err|None) — ни одного выдуманного числа."""
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(ascii_url(url), headers={"User-Agent": UA})
     t0 = time.perf_counter()
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -661,5 +668,6 @@ if __name__ == "__main__":
     try:
         sys_exit = main()
     except SystemExit as e:
-        sys_exit = int(e.code or 0)
+        # e.code бывает строкой-сообщением — это отказ с причиной, не код выхода
+        sys_exit = e.code if isinstance(e.code, int) else (0 if e.code is None else 2)
     raise SystemExit(sys_exit)

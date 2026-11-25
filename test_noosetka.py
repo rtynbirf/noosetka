@@ -138,5 +138,37 @@ class Sources(unittest.TestCase):
         self.assertEqual(N.parse_profile_sealed(text), {"universal-agent"})
 
 
+class CrossMachine(unittest.TestCase):
+    """Кросс-машинный детерминизм: URL с кириллицей выживает на ASCII-локали раннера
+    (POSIX/C не должен ломать промер — прецедент 2026-11-25, workflow №45631800567)."""
+
+    def test_registry_url_ascii_after_quote(self):
+        u = N.ascii_url(N.REGISTRY_URL)
+        u.encode("ascii")  # не бросит UnicodeEncodeError — это и есть тест
+        self.assertIn("%D0%BC%D0%B8%D1%80%D1%8B.json", u)  # «миры» в UTF-8
+
+    def test_ascii_url_idempotent(self):
+        # уже готовые %XX не двоесятся при повторном проходе
+        once = N.ascii_url(N.REGISTRY_URL)
+        self.assertEqual(N.ascii_url(once), once)
+
+    def test_hostile_locale_survives(self):
+        """Прогон в враждебной локали (как раннер): URL обязан стать ASCII."""
+        import os as _os
+        import subprocess as _sp
+        import sys as _sys
+        env = dict(_os.environ)
+        env.update({"LC_ALL": "C", "LANG": "C", "PYTHONUTF8": "0",
+                    "PYTHONCOERCECLOCALE": "0", "PYTHONIOENCODING": "ascii"})
+        r = _sp.run(
+            [_sys.executable, "-c",
+             "import noosetka; print(noosetka.ascii_url(noosetka.REGISTRY_URL))"],
+            capture_output=True, text=True, env=env,
+            cwd=str(Path(__file__).resolve().parent))
+        self.assertEqual(r.returncode, 0, "ASCII-локаль ломает URL: %s" % r.stderr.strip())
+        self.assertTrue(r.stdout.strip().isascii())
+        self.assertIn("%D0%BC%D0%B8%D1%80%D1%8B", r.stdout)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
