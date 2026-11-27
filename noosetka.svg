@@ -10,91 +10,91 @@
 <circle cx="73.8" cy="78.3" r="2.3" fill="#38bdf8"/><circle cx="73.8" cy="84.7" r="1.26" fill="#1e293b" fill-opacity="0.18"/><circle cx="73.8" cy="91.1" r="1.26" fill="#1e293b" fill-opacity="0.18"/><circle cx="80.2" cy="78.3" r="1.26" fill="#1e293b" fill-opacity="0.18"/><circle cx="80.2" cy="84.7" r="2.3" fill="#38bdf8"/><circle cx="80.2" cy="91.1" r="1.26" fill="#1e293b" fill-opacity="0.18"/>
 <text x="96" y="92" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="18" font-weight="bold" fill="#38bdf8">LIVE</text>
 <text x="872" y="92" text-anchor="end" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="12" fill="#94a3b8">READY 1 · LIVE 79 · SEALED 1</text>
-<g><title>.github — LIVE · LIVE · ядро в репо · 149ms</title>
+<g><title>.github — LIVE · LIVE · ядро в репо · 98ms</title>
 <rect x="28" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="37.7" cy="136" r="1.7" fill="#38bdf8"/><circle cx="37.7" cy="140.6" r="1.7" fill="#38bdf8"/><circle cx="42.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="136" r="1.7" fill="#38bdf8"/><circle cx="42.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>agryp — LIVE · LIVE · ядро в репо · 182ms</title>
+<g><title>agryp — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="59" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="68.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="136" r="1.7" fill="#38bdf8"/><circle cx="73.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>assembly-protocol — LIVE · LIVE · ядро в репо · 152ms</title>
+<g><title>assembly-protocol — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="90" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="99.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>cell-rs — LIVE · LIVE · ядро в репо · 178ms</title>
+<g><title>cell-rs — LIVE · LIVE · ядро в репо · 115ms</title>
 <rect x="121" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="130.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="135.3" cy="136" r="1.7" fill="#38bdf8"/><circle cx="135.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>cell-swarm — LIVE · LIVE · ядро в репо · 135ms</title>
+<g><title>cell-swarm — LIVE · LIVE · ядро в репо · 108ms</title>
 <rect x="152" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="161.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="140.6" r="1.7" fill="#38bdf8"/><circle cx="166.3" cy="131.4" r="1.7" fill="#38bdf8"/><circle cx="166.3" cy="136" r="1.7" fill="#38bdf8"/><circle cx="166.3" cy="140.6" r="1.7" fill="#38bdf8"/>
 </g>
-<g><title>cell65-host — LIVE · LIVE · ядро в репо · 164ms</title>
+<g><title>cell65-host — LIVE · LIVE · ядро в репо · 101ms</title>
 <rect x="183" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>code — LIVE · LIVE · ядро в репо · 147ms</title>
+<g><title>code — LIVE · LIVE · ядро в репо · 119ms</title>
 <rect x="214" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="223.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>combain-v2 — LIVE · LIVE · ядро в репо · 146ms</title>
+<g><title>combain-v2 — LIVE · LIVE · ядро в репо · 122ms</title>
 <rect x="245" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>commons — LIVE · LIVE · ядро в репо · 142ms</title>
+<g><title>commons — LIVE · LIVE · ядро в репо · 90ms</title>
 <rect x="276" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>dogovor — LIVE · LIVE · ядро в репо · 126ms</title>
+<g><title>dogovor — LIVE · LIVE · ядро в репо · 89ms</title>
 <rect x="307" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>domovenok — LIVE · LIVE · ядро в репо · 150ms</title>
+<g><title>domovenok — LIVE · LIVE · ядро в репо · 90ms</title>
 <rect x="338" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>domovoy — LIVE · LIVE · ядро в репо · 137ms</title>
+<g><title>domovoy — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="369" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="378.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>domovoy-ritual — LIVE · LIVE · ядро в репо · 158ms</title>
+<g><title>domovoy-ritual — LIVE · LIVE · ядро в репо · 92ms</title>
 <rect x="400" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="409.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>domovoy-tweaker — LIVE · LIVE · ядро в репо · 113ms</title>
+<g><title>domovoy-tweaker — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="431" y="124" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="440.7" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="131.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="136" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="140.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>door-zero — LIVE · LIVE · ядро в репо · 176ms</title>
+<g><title>door-zero — LIVE · LIVE · ядро в репо · 94ms</title>
 <rect x="28" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>edinyy-svod — LIVE · LIVE · ядро в репо · 148ms</title>
+<g><title>edinyy-svod — LIVE · LIVE · ядро в репо · 102ms</title>
 <rect x="59" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>ekonomika — LIVE · LIVE · ядро в репо · 140ms</title>
+<g><title>ekonomika — LIVE · LIVE · ядро в репо · 137ms</title>
 <rect x="90" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>ekspozicii — LIVE · LIVE · ядро в репо · 153ms</title>
+<g><title>ekspozicii — LIVE · LIVE · ядро в репо · 88ms</title>
 <rect x="121" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>fond-host — LIVE · LIVE · ядро в репо · 156ms</title>
+<g><title>fond-host — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="152" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>free-man — LIVE · LIVE · ядро в репо · 124ms</title>
+<g><title>free-man — LIVE · LIVE · ядро в репо · 96ms</title>
 <rect x="183" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>github-doctrine — LIVE · LIVE · ядро в репо · 113ms</title>
+<g><title>github-doctrine — LIVE · LIVE · ядро в репо · 90ms</title>
 <rect x="214" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="223.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>github-runbook — LIVE · LIVE · ядро в репо · 155ms</title>
+<g><title>github-runbook — LIVE · LIVE · ядро в репо · 112ms</title>
 <rect x="245" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
@@ -102,215 +102,215 @@
 <rect x="276" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>global-video-platforms-registry — LIVE · LIVE · ядро в репо · 177ms</title>
+<g><title>global-video-platforms-registry — LIVE · LIVE · ядро в репо · 109ms</title>
 <rect x="307" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>H-PE11-PHOENIX — LIVE · LIVE · ядро в репо · 150ms</title>
+<g><title>H-PE11-PHOENIX — LIVE · LIVE · ядро в репо · 94ms</title>
 <rect x="338" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>hologram — LIVE · LIVE · ядро в репо · 174ms</title>
+<g><title>hologram — LIVE · LIVE · ядро в репо · 94ms</title>
 <rect x="369" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="378.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>index — LIVE · LIVE · ядро в репо · 154ms</title>
+<g><title>index — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="400" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="409.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>inv-automat — LIVE · LIVE · ядро в репо · 161ms</title>
+<g><title>inv-automat — LIVE · LIVE · ядро в репо · 117ms</title>
 <rect x="431" y="155" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="440.7" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="162.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="167" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="171.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>invariant-manifest — LIVE · LIVE · ядро в репо · 135ms</title>
+<g><title>invariant-manifest — LIVE · LIVE · ядро в репо · 87ms</title>
 <rect x="28" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>karaoke-dream — LIVE · LIVE · ядро в репо · 156ms</title>
+<g><title>karaoke-dream — LIVE · LIVE · ядро в репо · 111ms</title>
 <rect x="59" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>karta — LIVE · LIVE · ядро в репо · 123ms</title>
+<g><title>karta — LIVE · LIVE · ядро в репо · 96ms</title>
 <rect x="90" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>kb — LIVE · LIVE · ядро в репо · 153ms</title>
+<g><title>kb — LIVE · LIVE · ядро в репо · 149ms</title>
 <rect x="121" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>khozyain — LIVE · LIVE · ядро в репо · 161ms</title>
+<g><title>khozyain — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="152" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>language-through-the-ages — LIVE · LIVE · ядро в репо · 170ms</title>
+<g><title>language-through-the-ages — LIVE · LIVE · ядро в репо · 102ms</title>
 <rect x="183" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>lean-canon — LIVE · LIVE · ядро в репо · 183ms</title>
+<g><title>lean-canon — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="214" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="223.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>lex-naturae — LIVE · LIVE · ядро в репо · 151ms</title>
+<g><title>lex-naturae — LIVE · LIVE · ядро в репо · 112ms</title>
 <rect x="245" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>lfs-core — LIVE · LIVE · ядро в репо · 157ms</title>
+<g><title>lfs-core — LIVE · LIVE · ядро в репо · 108ms</title>
 <rect x="276" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>linguistic-code — LIVE · LIVE · ядро в репо · 145ms</title>
+<g><title>linguistic-code — LIVE · LIVE · ядро в репо · 135ms</title>
 <rect x="307" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>markitdown — LIVE · LIVE · ядро в репо · 127ms</title>
+<g><title>markitdown — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="338" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>meta-layer-kit — LIVE · LIVE · ядро в репо · 181ms</title>
+<g><title>meta-layer-kit — LIVE · LIVE · ядро в репо · 87ms</title>
 <rect x="369" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="378.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>neutral-browser — LIVE · LIVE · ядро в репо · 135ms</title>
+<g><title>neutral-browser — LIVE · LIVE · ядро в репо · 106ms</title>
 <rect x="400" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="409.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>nous — LIVE · LIVE · ядро в репо · 154ms</title>
+<g><title>nous — LIVE · LIVE · ядро в репо · 82ms</title>
 <rect x="431" y="186" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="440.7" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="193.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="198" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="202.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>os-forge — LIVE · LIVE · ядро в репо · 178ms</title>
+<g><title>os-forge — LIVE · LIVE · ядро в репо · 100ms</title>
 <rect x="28" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polimat-hub — LIVE · LIVE · ядро в репо · 168ms</title>
+<g><title>polimat-hub — LIVE · LIVE · ядро в репо · 106ms</title>
 <rect x="59" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polimat-task174 — LIVE · LIVE · ядро в репо · 135ms</title>
+<g><title>polimat-task174 — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="90" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymat-hive — LIVE · LIVE · ядро в репо · 129ms</title>
+<g><title>polymat-hive — LIVE · LIVE · ядро в репо · 91ms</title>
 <rect x="121" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-atlas — LIVE · LIVE · ядро в репо · 161ms</title>
+<g><title>polymath-atlas — LIVE · LIVE · ядро в репо · 100ms</title>
 <rect x="152" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>POLYMATH-ATLAS-GESTALT-CANON — LIVE · LIVE · ядро в репо · 146ms</title>
+<g><title>POLYMATH-ATLAS-GESTALT-CANON — LIVE · LIVE · ядро в репо · 99ms</title>
 <rect x="183" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-atlas-v107 — LIVE · LIVE · ядро в репо · 175ms</title>
+<g><title>polymath-atlas-v107 — LIVE · LIVE · ядро в репо · 95ms</title>
 <rect x="214" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="223.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-core — LIVE · LIVE · ядро в репо · 121ms</title>
+<g><title>polymath-core — LIVE · LIVE · ядро в репо · 105ms</title>
 <rect x="245" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-gen — LIVE · LIVE · ядро в репо · 129ms</title>
+<g><title>polymath-gen — LIVE · LIVE · ядро в репо · 89ms</title>
 <rect x="276" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-multiagent — LIVE · LIVE · ядро в репо · 172ms</title>
+<g><title>polymath-multiagent — LIVE · LIVE · ядро в репо · 108ms</title>
 <rect x="307" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-os — LIVE · LIVE · ядро в репо · 190ms</title>
+<g><title>polymath-os — LIVE · LIVE · ядро в репо · 109ms</title>
 <rect x="338" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-stckg-core — LIVE · LIVE · ядро в репо · 180ms</title>
+<g><title>polymath-stckg-core — LIVE · LIVE · ядро в репо · 92ms</title>
 <rect x="369" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="378.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>polymath-tools-atlas — LIVE · LIVE · ядро в репо · 129ms</title>
+<g><title>polymath-tools-atlas — LIVE · LIVE · ядро в репо · 92ms</title>
 <rect x="400" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="409.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>red-thread-debt-audit — LIVE · LIVE · ядро в репо · 181ms</title>
+<g><title>red-thread-debt-audit — LIVE · LIVE · ядро в репо · 98ms</title>
 <rect x="431" y="217" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="440.7" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="440.7" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="224.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="229" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="445.3" cy="233.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>release-vault — LIVE · LIVE · ядро в репо · 133ms</title>
+<g><title>release-vault — LIVE · LIVE · ядро в репо · 107ms</title>
 <rect x="28" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>relomat — LIVE · LIVE · ядро в репо · 159ms</title>
+<g><title>relomat — LIVE · LIVE · ядро в репо · 90ms</title>
 <rect x="59" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>rent-mechanism-q43 — LIVE · LIVE · ядро в репо · 137ms</title>
+<g><title>rent-mechanism-q43 — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="90" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>repo-doctrine — LIVE · LIVE · ядро в репо · 128ms</title>
+<g><title>repo-doctrine — LIVE · LIVE · ядро в репо · 94ms</title>
 <rect x="121" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>repo-seed — LIVE · LIVE · ядро в репо · 122ms</title>
+<g><title>repo-seed — LIVE · LIVE · ядро в репо · 110ms</title>
 <rect x="152" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>revo — LIVE · LIVE · ядро в репо · 121ms</title>
+<g><title>revo — LIVE · LIVE · ядро в репо · 117ms</title>
 <rect x="183" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>rtynbirf — LIVE · LIVE · ядро в репо · 162ms</title>
+<g><title>rtynbirf — LIVE · LIVE · ядро в репо · 69ms</title>
 <rect x="214" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="223.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="223.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="228.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>rtynbirf.github.io — LIVE · LIVE · ядро в репо · 141ms</title>
+<g><title>rtynbirf.github.io — LIVE · LIVE · ядро в репо · 103ms</title>
 <rect x="245" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>rumu — LIVE · LIVE · ядро в репо · 132ms</title>
+<g><title>rumu — LIVE · LIVE · ядро в репо · 90ms</title>
 <rect x="276" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>runtime-protocol — LIVE · LIVE · ядро в репо · 168ms</title>
+<g><title>runtime-protocol — LIVE · LIVE · ядро в репо · 141ms</title>
 <rect x="307" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>ruvson — LIVE · LIVE · ядро в репо · 169ms</title>
+<g><title>ruvson — LIVE · LIVE · ядро в репо · 103ms</title>
 <rect x="338" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>ruvson-lyrics — LIVE · LIVE · ядро в репо · 176ms</title>
+<g><title>ruvson-lyrics — LIVE · LIVE · ядро в репо · 101ms</title>
 <rect x="369" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="378.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="378.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="383.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>ruvson-rse2 — LIVE · LIVE · ядро в репо · 129ms</title>
+<g><title>ruvson-rse2 — LIVE · LIVE · ядро в репо · 96ms</title>
 <rect x="400" y="248" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="409.7" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="409.7" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="255.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="260" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="414.3" cy="264.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>singulyar — READY · READY · стражи 16/16 · 124ms</title>
+<g><title>singulyar — READY · READY · стражи 16/16 · 92ms</title>
 <rect x="431" y="248" width="24" height="24" rx="5" fill="#22c55e" fill-opacity="0.16" stroke="#22c55e"/>
 <circle cx="440.7" cy="255.4" r="0.94" fill="#22c55e" fill-opacity="0.3"/><circle cx="440.7" cy="260" r="0.94" fill="#22c55e" fill-opacity="0.3"/><circle cx="440.7" cy="264.6" r="0.94" fill="#22c55e" fill-opacity="0.3"/><circle cx="445.3" cy="255.4" r="0.94" fill="#22c55e" fill-opacity="0.3"/><circle cx="445.3" cy="260" r="0.94" fill="#22c55e" fill-opacity="0.3"/><circle cx="445.3" cy="264.6" r="0.94" fill="#22c55e" fill-opacity="0.3"/>
 </g>
-<g><title>singulyar-a0-audit — LIVE · LIVE · ядро в репо · 152ms</title>
+<g><title>singulyar-a0-audit — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="28" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="37.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="37.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="42.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>singulyar-llm — LIVE · LIVE · ядро в репо · 130ms</title>
+<g><title>singulyar-llm — LIVE · LIVE · ядро в репо · 97ms</title>
 <rect x="59" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="68.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="68.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="73.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>task-graph-propagator — LIVE · LIVE · ядро в репо · 134ms</title>
+<g><title>task-graph-propagator — LIVE · LIVE · ядро в репо · 107ms</title>
 <rect x="90" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="99.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="99.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="104.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>uace — LIVE · LIVE · ядро в репо · 134ms</title>
+<g><title>uace — LIVE · LIVE · ядро в репо · 103ms</title>
 <rect x="121" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="130.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="130.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="135.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>uace-pml — LIVE · LIVE · ядро в репо · 163ms</title>
+<g><title>uace-pml — LIVE · LIVE · ядро в репо · 92ms</title>
 <rect x="152" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="161.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="161.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="166.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>uace-polymat — LIVE · LIVE · ядро в репо · 152ms</title>
+<g><title>uace-polymat — LIVE · LIVE · ядро в репо · 83ms</title>
 <rect x="183" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="192.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="192.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="197.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
@@ -318,19 +318,19 @@
 <rect x="214" y="279" width="24" height="24" rx="5" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7"/>
 <circle cx="223.7" cy="286.4" r="0.94" fill="#a855f7" fill-opacity="0.3"/><circle cx="223.7" cy="291" r="0.94" fill="#a855f7" fill-opacity="0.3"/><circle cx="223.7" cy="295.6" r="0.94" fill="#a855f7" fill-opacity="0.3"/><circle cx="228.3" cy="286.4" r="0.94" fill="#a855f7" fill-opacity="0.3"/><circle cx="228.3" cy="291" r="0.94" fill="#a855f7" fill-opacity="0.3"/><circle cx="228.3" cy="295.6" r="0.94" fill="#a855f7" fill-opacity="0.3"/>
 </g>
-<g><title>voice-atlas-llm — LIVE · LIVE · ядро в репо · 158ms</title>
+<g><title>voice-atlas-llm — LIVE · LIVE · ядро в репо · 93ms</title>
 <rect x="245" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="254.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="254.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="259.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>web-evolution-1991-2026 — LIVE · LIVE · ядро в репо · 130ms</title>
+<g><title>web-evolution-1991-2026 — LIVE · LIVE · ядро в репо · 117ms</title>
 <rect x="276" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="285.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="285.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="290.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>windows-chronicle — LIVE · LIVE · ядро в репо · 175ms</title>
+<g><title>windows-chronicle — LIVE · LIVE · ядро в репо · 136ms</title>
 <rect x="307" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="316.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="316.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="321.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
-<g><title>yazyk-skvoz-epohi — LIVE · LIVE · ядро в репо · 153ms</title>
+<g><title>yazyk-skvoz-epohi — LIVE · LIVE · ядро в репо · 116ms</title>
 <rect x="338" y="279" width="24" height="24" rx="5" fill="#38bdf8" fill-opacity="0.16" stroke="#38bdf8"/>
 <circle cx="347.7" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="347.7" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="286.4" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="291" r="0.94" fill="#38bdf8" fill-opacity="0.3"/><circle cx="352.3" cy="295.6" r="0.94" fill="#38bdf8" fill-opacity="0.3"/>
 </g>
@@ -355,5 +355,5 @@
 <text x="288" y="335" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="11" fill="#94a3b8">DEGRADED</text>
 <circle cx="364" cy="331" r="4" fill="#a855f7"/>
 <text x="374" y="335" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="11" fill="#94a3b8">SEALED</text>
-<text x="872" y="335" text-anchor="end" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="11" fill="#64748b">измерено 2026-11-27T01:49:14Z · noosetka v1.0 · факт = байты</text>
+<text x="872" y="335" text-anchor="end" font-family="DejaVu Sans, Verdana, Geneva, sans-serif" font-size="11" fill="#64748b">измерено 2026-11-27T16:50:13Z · noosetka v1.0 · факт = байты</text>
 </svg>
