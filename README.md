@@ -1,4 +1,30 @@
+<div align="center">
+
+<a href="https://github.com/rtynbirf/noosetka"><img src="banner.png" width="100%" alt="noosetka — штандарт мастерской в каноне ORNAMENTAL MYTHO-REALISM"></a>
+
+</div>
+
+<!--ФОРЖ:МУЗА:НАЧАЛО-->
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/noosetka@main/repo-muse.svg" width="100%" alt="Муза noosetka: мастерская КУЗНЯ ПОЛИМАТ, кузня ПОЛИМАТ, раунд 12 · REVE=РЕВО" />
+  <br/>
+  <img src="https://cdn.jsdelivr.net/gh/rtynbirf/noosetka@main/forge-divider.svg" width="62%" alt="делитель мастерской КУЗНЯ ПОЛИМАТ" />
+</div>
+<!--ФОРЖ:МУЗА:КОНЕЦ-->
+
+<!--ФОРЖ:ПАСПОРТ:НАЧАЛО-->
+<div align="center">
+  <img src="revo-page.svg" width="100%" alt="РЕВО-паспорт страницы noosetka в каноне ORNAMENTAL MYTHO-REALISM: орнаментальная решётка, медальон-миф, строение файлов, лексикон — по фактическому контенту" />
+</div>
+
+| ФАЙЛОВ | ПАПОК | КОММИТОВ | ОБНОВЛЕНО | РЕЛИЗОВ |
+|---:|---:|---:|---|---:|
+| 13 | 3 | 1 | 2026-11-28 | 0 |
+<!--ФОРЖ:ПАСПОРТ:КОНЕЦ-->
+
 # НООСЕТКА · ПУЛЬТ МИРОВ
+
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/rtynbirf/noosetka@main/.github/social-preview.png" alt="noosetka" width="100%"></p>
 
 Бейдж-виджет дома [rtynbirf](https://github.com/rtynbirf): состояние каждого мира
 **вымеряется, не декларируется**. Вместо простыни-таблицы на профиле — один пульт:
@@ -45,3 +71,5 @@ python3 noosetka.py verify     # сверка снимка и пульта
 
 cron `23 */6 * * *` + ручной запуск: промер → `noosetka.svg` + `noo/snapshot.json` →
 бот-коммит (append-only по коммитам, без force). История снимков = история правды дома.
+
+<!--ФОРЖ:ПОДВАЛ-->
